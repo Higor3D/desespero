@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo"
+
+    android:orientation="vertical"
+    tools:context=".SobreActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/idToolBarMeioAmbiente"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/dark_purple"
+        app:navigationIcon="@drawable/seta" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp"
+        android:id="@+id/textoSobre"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_above="@id/imgminahft"
+        android:background="@color/transparente"
+        android:fontFamily="@font/hollywoodone"
+        android:text="Sobre"
+        android:textAlignment="center"
+        android:textColor="@color/branquinho"
+        android:textSize="30dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+        <ImageView
+            android:id="@+id/imgminahft"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/eu1" />
+
+        <TextView
+            android:id="@+id/Higorgomes"
+            android:layout_toRightOf="@id/imgminahft"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/hollywoodone"
+            android:text="Higor Gomes"
+            android:textColor="@color/branquinho"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/Tresdegms"
+            android:layout_below="@+id/Higorgomes"
+            android:layout_toRightOf="@id/imgminahft"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="@3Dgms"
+            android:textColor="@color/cinzinha" />
+
+        <TextView
+            android:layout_below="@+id/Tresdegms"
+            android:id="@+id/HigorSobre"
+            android:layout_toRightOf="@id/imgminahft"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:text="@string/sobnre"
+            android:textColor="@color/branquinho" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+        <ImageView
+            android:id="@+id/gabift"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/eu" />
+
+        <TextView
+            android:id="@+id/Gabrielle"
+            android:layout_toRightOf="@id/gabift"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/hollywoodone"
+            android:text="Gabrielle Neves"
+            android:textColor="@color/branquinho"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/Gabifodase"
+            android:layout_below="@+id/Gabrielle"
+            android:layout_toRightOf="@id/gabift"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="@GabrielleCGNeves"
+            android:textColor="@color/cinzinha" />
+
+        <TextView
+            android:layout_below="@+id/Gabifodase"
+            android:id="@+id/GabiSobre"
+            android:layout_toRightOf="@id/gabift"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:text="@string/sobnre"
+            android:textColor="@color/branquinho" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">NotNews</string>
+    <string name="titVeiculo">Carros Autônomos</string>
+    <string name="textVeiculo">Os veículos autônomos são fundamentais para o desenvolvimento de cidades inteligentes, pois promovem mobilidade sustentável, segurança e otimização dos recursos urbanos. Integrados à infraestrutura urbana, esses veículos contribuem para um trânsito mais eficiente, reduzem a poluição e incentivam o compartilhamento de carros. O investimento em pesquisa e desenvolvimento dessas tecnologias é essencial para um futuro urbano mais inteligente e sustentável.</string>
+
+    <string name="titFarol">Semaforo Inteligente</string>
+    <string name="textFarol">Em uma cidade inteligente, os semáforos são uma ferramenta importante para garantir a segurança no trânsito e melhorar a mobilidade urbana. Com o uso de tecnologia avançada, os semáforos podem ser programados para sincronizar o fluxo de veículos, pedestres e ciclistas, reduzindo o tempo de espera nos cruzamentos e evitando congestionamentos. Além disso, sensores podem ser instalados para detectar a presença de veículos e pedestres, permitindo que os semáforos ajustem automaticamente os tempos de sinalização.</string>
+
+    <string name="titMoto">Faixas para Motocicletas</string>
+    <string name="textMoto">As faixas para motocicletas em cidades inteligentes são projetadas para proporcionar uma experiência de viagem segura e eficiente para os motociclistas. Essas faixas geralmente são segregadas das faixas de carros e têm sinalização exclusiva para orientar os motociclistas. Além disso, algumas cidades inteligentes estão experimentando a implementação de faixas exclusivas para motocicletas nas ruas, permitindo que elas passem pelo tráfego parado, reduzindo o tempo de viagem e aumentando a eficiência.</string>
+
+    <string name="titPub">Transporte Público</string>
+    <string name="textPub">O transporte público em cidades inteligentes é projetado para ser eficiente, acessível e sustentável. As opções de transporte público incluem ônibus, metrôs, trens e até mesmo sistemas de compartilhamento de bicicletas e scooters elétricos. Além disso, as cidades inteligentes estão utilizando tecnologias de ponta, como sistemas de pagamento sem contato e informações em tempo real sobre o transporte público, para tornar a experiência de viagem mais fácil e agradável para os usuários. </string>
+
+    <string name="titEstacionamento">Sistema de Estacionamento</string>
+    <string name="textEstacionamento">Em cidades inteligentes, os estacionamentos são projetados para serem eficientes e acessíveis. Isso inclui a implementação de sensores de estacionamento inteligentes que fornecem informações em tempo real sobre a disponibilidade de vagas, reduzindo o tempo que os motoristas passam procurando por um lugar para estacionar. Além disso, as cidades inteligentes estão investindo em tecnologias de pagamento móvel e sem contato, tornando a experiência de pagamento por estacionamento mais fácil e conveniente para os usuários. </string>
+
+    <string name="titNormas">Normas e Intervenções</string>
+    <string name="textNormas">Em cidades inteligentes, normas e intervenções no planejamento urbano promovem a sustentabilidade e eficiência. Políticas de uso misto de solo e tecnologias de iluminação pública inteligente são exemplos de medidas adotadas para garantir a qualidade de vida dos cidadãos e promover um futuro mais sustentável.</string>
+
+    <string name="titRegulamentacoes">Regulamentações</string>
+    <string name="textRegulamentacoes">Em cidades inteligentes, as regulamentações são projetadas para garantir a segurança, a acessibilidade e a sustentabilidade. Isso inclui a implementação de leis de trânsito inteligentes, que incentivam o uso de transporte público e veículos elétricos, além de medidas para promover a acessibilidade para pessoas com deficiência e idosos. As regulamentações em cidades inteligentes são importantes para garantir que a mobilidade urbana seja segura e eficiente para todos.</string>
+
+    <string name="titArvore">Planos de Arborização</string>
+    <string name="textArvore">Em cidades inteligentes, os planos de arborização são projetados para promover a sustentabilidade e a qualidade de vida dos cidadãos. Isso inclui a implementação de políticas de preservação de áreas verdes e a adoção de técnicas de plantio e manutenção de árvores adequadas às condições climáticas e geográficas locais. Além disso, as cidades inteligentes estão investindo em tecnologias de monitoramento de áreas verdes e na criação de espaços públicos que promovem a interação da população com a natureza. </string>
+
+    <string name="titSaneamento">Saneamento Vias Públicas</string>
+    <string name="textSaneamento">Em cidades inteligentes, o saneamento das vias públicas é uma prioridade para promover a saúde e a segurança dos cidadãos. Isso inclui a implementação de sistemas inteligentes de coleta de lixo e a limpeza das ruas e calçadas, para evitar o acúmulo de resíduos e a proliferação de doenças. Além disso, as cidades inteligentes estão investindo em tecnologias de tratamento de água e esgoto, para garantir o acesso à água potável e reduzir a poluição ambiental. O saneamento das vias públicas é uma medida essencial para garantir a qualidade de vida dos cidadãos e promover a sustentabilidade urbana.</string>
+
+    <string name="titEducacao">Educação</string>
+    <string name="textEducacao">Em cidades inteligentes, a educação é uma prioridade para promover o desenvolvimento humano e social. Isso inclui a implementação de políticas públicas que incentivam a educação de qualidade e o acesso à tecnologia para estudantes e professores. Além disso, as cidades inteligentes estão investindo em tecnologias educacionais avançadas, como plataformas de ensino à distância e salas de aula virtuais, para ampliar o acesso ao conhecimento e melhorar a qualidade da educação. </string>
+
+    <string name="titReciclagem">Reciclagem</string>
+    <string name="textReciclagem">Uma cidade inteligente não só busca soluções inovadoras para seus problemas, mas também se preocupa com o meio ambiente. A reciclagem é uma prática essencial nesse sentido, e pode ser incentivada de diversas formas, como campanhas educativas, coleta seletiva eficiente e a instalação de pontos de coleta em locais estratégicos. A conscientização da população sobre a importância da reciclagem é fundamental para garantir uma cidade sustentável e inteligente, que preserva os recursos naturais para as futuras gerações.</string>
+
+    <string name="titLixo">Processamento de Lixo Urbano</string>
+    <string name="textLixo">Algumas soluções sustentáveis para processamento de lixo urbano em cidades inteligentes incluem a reciclagem, a compostagem, a geração de energia a partir de resíduos e a utilização de tecnologias avançadas para reduzir a quantidade de resíduos gerados.</string>
+
+    <string name="titRecursos">Gestão de Recursos</string>
+    <string name="textRecursos">A gestão eficiente de recursos hídricos e sólidos é uma das principais preocupações das cidades inteligentes, que buscam soluções tecnológicas inovadoras para preservar o meio ambiente e garantir a qualidade de vida da população. A justificativa para essa abordagem está na importância desses recursos para a manutenção dos ecossistemas e para o bem-estar da sociedade, além dos crescentes desafios relacionados à escassez de água potável e ao aumento da geração de resíduos sólidos.</string>
+
+    <string name="titEcossistema">Saúde do Ecossistema</string>
+    <string name="textEcossistema">A saúde do ecossistema é uma preocupação crescente das cidades inteligentes, que buscam soluções inovadoras para proteger a biodiversidade e garantir a sustentabilidade ambiental. A justificativa para essa abordagem está na importância dos ecossistemas para a manutenção do equilíbrio ecológico, na regulação do clima, na proteção contra desastres naturais e na oferta de serviços ecossistêmicos essenciais, como a produção de alimentos e a purificação da água.</string>
+
+    <string name="titEnergia">Fontes Renováveis de Energia</string>
+    <string name="textEnergia">A adoção de fontes renováveis de energia é uma das principais estratégias das cidades inteligentes para reduzir a dependência dos combustíveis fósseis e combater as mudanças climáticas. A justificativa para essa abordagem está na necessidade de mitigar os impactos ambientais e sociais da produção e uso de energia, como a emissão de gases de efeito estufa, a poluição do ar e a degradação dos recursos naturais. </string>
+
+    <string name="sobnre">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ex tortor, porttitor a fermentum eu, rutrum ornare magna. Suspendisse vulputate ante a sapien laoreet, a ullamcorper ante varius. Phasellus sit amet ex vel nunc vestibulum placerat at a sapien. Nunc mollis purus ligula, eu dapibus sapien malesuada quis. Quisque fringilla libero et leo dictum pharetra. Nullam in lectus pellentesque, bibendum arcu non, placerat urna. Maecenas eget venenatis turpis, id congue velit. Nulla tristique dictum erat, sed lobortis nisl consequat sit amet. Duis id dolor in elit malesuada semper. </string>
+</resources>

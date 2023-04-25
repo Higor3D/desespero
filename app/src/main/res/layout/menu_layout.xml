@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo"
+    android:orientation="vertical"
+    tools:context=".MenuActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/idToolBarMeioAmbiente"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/dark_purple"
+        app:menu="@menu/toolbartop"
+        app:navigationIcon="@drawable/baseline_more_vert" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="200dp"
+                android:layout_height="210dp"
+                android:layout_margin="15dp"
+                android:backgroundTint="@color/transparente"
+                app:cardCornerRadius="9dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/menu_eco" />
+
+                <Button
+                    android:id="@+id/buttonMato"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="57dp"
+                    android:backgroundTint="@color/transparente"
+                    android:text="MEIO AMBIENTE"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="200dp"
+                android:layout_height="210dp"
+                android:layout_margin="15dp"
+                android:backgroundTint="@color/transparente"
+                app:cardCornerRadius="9dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/menu_mobi" />
+
+                <Button
+                    android:id="@+id/buttonMobi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="57dp"
+                    android:backgroundTint="@color/transparente"
+                    android:text="MOBILIDADE"
+                    android:textColor="@color/dark_purple"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="200dp"
+                android:layout_height="210dp"
+                android:layout_margin="15dp"
+                android:backgroundTint="@color/transparente"
+                app:cardCornerRadius="9dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/menu_plan" />
+
+                <Button
+                    android:id="@+id/buttonPlan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="57dp"
+                    android:backgroundTint="@color/transparente"
+                    android:text="PLANEJAMENTO URBANO"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:fontFamily="@font/hollywoodone"
+        android:text="TEMAS DA SEMANA"
+        android:textColor="@color/white"
+        android:textSize="13dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="450dp">
+
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="135dp"
+            android:layout_height="113dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/amb_eco" />
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="135dp"
+            android:layout_height="113dp"
+            android:layout_below="@id/img1"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/mob_carro" />
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="135dp"
+            android:layout_height="113dp"
+            android:layout_below="@id/img2"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/plan_edu" />
+
+        <TextView
+            android:id="@+id/txt1id"
+            android:layout_width="250dp"
+            android:layout_height="113dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="14.9dp"
+            android:layout_marginRight="9dp"
+            android:background="@drawable/base_texto"
+            android:fontFamily="@font/hollywoodone"
+            android:padding="10dp"
+            android:text="@string/textArvore"
+            android:textColor="@color/dark_purple"
+            android:textSize="7.5dp" />
+
+        <TextView
+            android:id="@+id/txt2id"
+            android:layout_width="250dp"
+            android:layout_height="113dp"
+            android:layout_below="@id/txt1id"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30.3dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="9dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/base_texto"
+            android:fontFamily="@font/hollywoodone"
+            android:padding="10dp"
+            android:text="@string/textVeiculo"
+            android:textColor="@color/dark_purple"
+            android:textSize="7.5dp" />
+
+        <TextView
+            android:id="@+id/txt3id"
+            android:layout_width="250dp"
+            android:layout_height="113dp"
+            android:layout_below="@id/txt2id"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="9dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/base_texto"
+            android:fontFamily="@font/hollywoodone"
+            android:padding="10dp"
+            android:text="@string/textEducacao"
+            android:textColor="@color/dark_purple"
+            android:textSize="7.5dp" />
+
+
+    </RelativeLayout>
+
+
+    </LinearLayout>

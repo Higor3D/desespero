@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/mBuscar"
+        android:icon="@drawable/buscar"
+        android:title="Buscar"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/mCompartilhar"
+        android:icon="@drawable/compartilhar"
+        android:title="Compartilhar"
+        app:showAsAction="ifRoom" />
+</menu>

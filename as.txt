@@ -1,0 +1,42 @@
+<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="85dp">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/botzadaBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            app:menu="@menu/botzada"
+            app:itemBackground="@color/dark_purple"
+            app:itemIconTint="@android:color/white"
+            app:itemTextColor="@android:color/white" />
+
+    </RelativeLayout>
+
+
+botzadaBar.setOnMenuItemClickListener(new Toolbar.OnMenuItemClickListener() {
+            @Override
+            public boolean onMenuItemClick(MenuItem item) {
+
+                switch (item.getItemId()) {
+                    case R.id.info_botzada:
+                        Toast.makeText(MenuActivity.this, "Sobre", Toast.LENGTH_SHORT).show();
+                        startActivity(new Intent(getApplicationContext(),
+                                SobreActivity.class));
+                        finish();
+                        break;
+
+                    case R.id.favoritos_botzada:
+                        Toast.makeText(MenuActivity.this, "Não possui favoritos", Toast.LENGTH_SHORT).show();
+
+                        break;
+
+                    case R.id.casada_botzada:
+                        Toast.makeText(MenuActivity.this, "Home", Toast.LENGTH_SHORT).show();
+                        break;
+                }
+                return true;
+
+            }
+        });
